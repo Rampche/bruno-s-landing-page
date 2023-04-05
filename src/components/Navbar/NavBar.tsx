@@ -5,19 +5,25 @@ import Logo from './Logo';
 const NavBar = (): JSX.Element => {
   return (
     <>
-      <nav className="text-secondary bg-gray-700/80 text-slate-300 min-h-[50px] font-primary w-full flex justify-between items-center fixed z-10">
+      <nav className="hidden md:flex justify-between items-center text-secondary :bg-[#F7F7F7] text-[#268FB7] md:min-h-[40px] font-primary w-full px-14 z-10 ">
         <div>
           <Logo />
         </div>
         <ul className="flex">
-          <li className="cursor-pointer">Início</li>
-          <li className="cursor-pointer">Sobre</li>
-          <li className="cursor-pointer">Área de Atuação</li>
-          <li className="cursor-pointer">Contato</li>
+          <li className="cursor-pointer text-base  ">Início</li>
+          <li className="cursor-pointer text-base  ">Sobre</li>
+          <li className="cursor-pointer text-base  ">Área de Atuação</li>
+          <li className="cursor-pointer text-base  ">Contato</li>
         </ul>
       </nav>
       <div className="sm:hidden">
-        <FaBars size={20} className="cursor-pointer mr-4" />
+        <FaBars size={20} className="cursor-pointer mx-0" />
+        <ul className="bg-[#F7F7F7]  text-[#268FB7] min-h-[40px] font-primary w-full flex flex-col justify-between items-center px-14 ">
+          <li className="cursor-pointer text-base  ">Início</li>
+          <li className="cursor-pointer text-base  ">Sobre</li>
+          <li className="cursor-pointer text-base  ">Área de Atuação</li>
+          <li className="cursor-pointer text-base  ">Contato</li>
+        </ul>
       </div>
     </>
   );

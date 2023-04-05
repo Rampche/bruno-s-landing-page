@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroImg from './HeroImg';
-import NavBar from '../Navbar/NavBar';
+import NavBar from '../navbar/NavBar';
 
 const Intro = () => {
   return (
