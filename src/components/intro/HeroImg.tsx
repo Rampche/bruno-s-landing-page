@@ -3,7 +3,7 @@ import heroImg from '../../assets/images/hero-img.jpg';
 
 const HeroImg = (): JSX.Element => {
   return (
-    <div className="w-full h-full flex items-center relative font-primary text-[#F7F7F7]">
+    <div className="w-full h-full relative flex items-center font-primary text-[#F7F7F7]">
       <img
         src={heroImg}
         className="max-h-[550px] w-full object-cover"
