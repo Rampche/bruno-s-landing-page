@@ -9,9 +9,13 @@ const HeroImg = (): JSX.Element => {
         className="max-h-[550px] w-full object-cover"
         alt="hero-img"
       ></img>
-      <div className="flex absolute flex-col p-4 left-10 top-20">
-        <h1 className="text-6xl font-medium">BRUNO ASFORA</h1>
-        <h2 className="font-thin text-2xl">Advogado Trabalhista</h2>
+      <div className="flex absolute flex-col p-4 left-3 top-5 sm:left-10 sm:top-20 ">
+        <h1 className="font-medium min-[280px]:text-sm text-lg sm:text-2xl md:text-4xl lg:text-6xl">
+          BRUNO ASFORA
+        </h1>
+        <h2 className="font-thin min-[280px]:text-xs text-sm sm:text-lg md:text-xl lg:text-4xl">
+          Advogado Trabalhista
+        </h2>
       </div>
     </div>
   );
