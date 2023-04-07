@@ -13,7 +13,7 @@ const HeroImg = (): JSX.Element => {
         <h1 className="font-medium min-[280px]:text-sm text-lg sm:text-2xl md:text-4xl lg:text-6xl">
           BRUNO ASFORA
         </h1>
-        <h2 className="font-thin min-[280px]:text-xs text-sm sm:text-lg md:text-xl lg:text-4xl">
+        <h2 className="font-thin min-[280px]:text-xs text-sm sm:text-lg md:text-xl lg:text-4xl ">
           Advogado Trabalhista
         </h2>
       </div>
