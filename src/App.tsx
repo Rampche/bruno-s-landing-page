@@ -8,8 +8,14 @@ function App() {
     <>
       <Outlet />
       <About />
-      <Info />
-      <Contact />
+      {/*    <Info />
+      <Contact /> 
+      - Publicações;
+      - Avaliações do Google;
+      - Contato
+      
+      
+      */}
     </>
   );
 }

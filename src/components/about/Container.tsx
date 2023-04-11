@@ -1,0 +1,53 @@
+import BrunoImg from '../../assets/images/Bruno.png';
+
+const Container = () => {
+  return (
+    <section className="px-4 text-center lg:px-14 py-4 bg-[#f3efec]">
+      <div className="flex flex-col md:flex-row items-center justify-center space-x-2 space-y-2 mt-2">
+        <img
+          src={BrunoImg}
+          alt="bruno's picture"
+          className="max-h-40 sm:max-h-80 md:max-h-96 lg:max-h-[500px]"
+        />
+
+        <div className="bg-[#2A95BF] text-justify p-4">
+          <h2 className="font-medium min-[280px]:text-sm text-lg sm:text-2xl md:text-3xl text-white">
+            BRUNO FARAN ASFORA DE MOURA
+          </h2>
+          <div className="text-[#f3efec]">
+            <br />
+            <p>
+              Especialista em Direito do Trabalho, pós-graduado em Dir.
+              Processual Civil e do Trabalho pela Escola Superior da
+              Magistratura de Pernambuco (ESMAPE). Formado na Universidade
+              Católica de Pernambuco (UNICAP), em 2018, e aprovado na Ordem dos
+              Advogados do Brasil (OAB) ainda durante a graduação.
+            </p>
+            <br />
+            <p>
+              Durante a sua formação, atuou em renomadas bancas de advocacia de
+              Pernambuco e adquiririu vasta experiência profissional, em
+              especial, na área trabalhista. Assim, construiu uma grande rede de
+              relacionamento com advogados do Estado.
+            </p>
+            <br />
+            <p>
+              Atualmente, é membro da Comissão de Direito do Trabalho da OAB/PE,
+              e auxilia o crescimento da advocacia, inclusive dos jovens
+              advogados.
+            </p>
+            <br />
+            <p>
+              A sua atuação é dedicada às ações trabalhistas de todo o Brasil,
+              tendo atuado em inúmeros processos, dos mais simples aos mais
+              complexos, com resultados relevantes que satisfazem as
+              necessidades dos seus clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Container;

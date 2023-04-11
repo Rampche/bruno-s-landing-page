@@ -35,7 +35,7 @@ const NavBar = (): JSX.Element => {
 
   return (
     <nav className="bg-[#F7F7F7] text-[#268FB7]">
-      <div className="hidden sm:flex justify-between items-center md:min-h-[40px] font-primary w-full px-14 z-10 ">
+      <div className="hidden sm:flex justify-between items-center md:min-h-[65px] font-primary w-full px-14 z-10 ">
         <div>
           <Logo />
         </div>
@@ -60,8 +60,8 @@ const NavBar = (): JSX.Element => {
         }}
         className={
           nav
-            ? 'sm:hidden overflow-y-hidden ease-in duration-500 absolute z-50 bg-[#F7F7F7] left-0 top-0 w-full h-screen opacity-95 px-4 py-7 flex flex-col'
-            : 'absolute top-0 h-screen w-full left-[-100%] ease-in duration-500 z-50 bg-[#F7F7F7]'
+            ? 'sm:hidden overflow-y-hidden ease-in duration-500 absolute z-50 bg-[#f3efec] left-0 top-0 w-full h-screen opacity-95 px-4 py-7 flex flex-col'
+            : 'absolute top-0 h-screen w-full left-[-100%] ease-in duration-500 z-50 bg-[#f3efec]'
         }
       >
         <ul className="pt-12 text-center h-full w-full">
