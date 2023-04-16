@@ -1,16 +1,8 @@
 import React from 'react';
-import HeroImg from './HeroImg';
-import NavBar from '../navbar/NavBar';
+import HeroVideo from './HeroVideo';
 
 const Intro = () => {
-  return (
-    <section className="relative">
-      <div className="z-10">
-        <NavBar />
-      </div>
-      <HeroImg />
-    </section>
-  );
+  return <HeroVideo />;
 };
 
 export default Intro;
