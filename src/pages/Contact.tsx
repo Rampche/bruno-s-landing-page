@@ -1,10 +1,14 @@
 import React from 'react';
+import NavBar from '../components/navbar/NavBar';
 
 const Contact = (): JSX.Element => {
   return (
-    <div>
-      <p>Contact</p>
-    </div>
+    <>
+      <NavBar />
+      <div>
+        <p>Contact</p>
+      </div>
+    </>
   );
 };
 

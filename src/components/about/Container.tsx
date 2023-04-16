@@ -7,11 +7,11 @@ const Container = () => {
         <img
           src={BrunoImg}
           alt="bruno's picture"
-          className="max-h-40 sm:max-h-80 md:max-h-96 lg:max-h-[500px]"
+          className="max-h-64 sm:max-h-80 md:max-h-96 lg:max-h-[500px]"
         />
 
-        <div className="bg-[#2A95BF] text-justify p-4">
-          <h2 className="font-medium min-[280px]:text-sm text-lg sm:text-2xl md:text-3xl text-white">
+        <div className="bg-gradient-to-tr from-[#2A95BF] to-[#256877] text-justify p-4 rounded">
+          <h2 className="text-center font-medium text-lg sm:text-2xl md:text-3xl text-white">
             BRUNO FARAN ASFORA DE MOURA
           </h2>
           <div className="text-[#f3efec]">

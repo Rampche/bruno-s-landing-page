@@ -1,10 +1,14 @@
 import React from 'react';
+import NavBar from '../components/navbar/NavBar';
 
 const Info = (): JSX.Element => {
   return (
-    <div>
-      <p>Info</p>
-    </div>
+    <>
+      <NavBar />
+      <div>
+        <p>Info</p>
+      </div>
+    </>
   );
 };
 
