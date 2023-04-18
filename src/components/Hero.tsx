@@ -1,16 +1,11 @@
 import React from 'react';
 import heroVid from '../assets/videos/heroVid.mp4';
+import Video from './Video';
 
 const Hero = (): JSX.Element => {
   return (
     <div className="w-full h-full relative flex items-center font-primary text-[#F7F7F7]">
-      <video
-        src={heroVid}
-        className="md:max-h-[600px] max-h-80 w-full object-cover"
-        autoPlay
-        muted
-        loop
-      ></video>
+      <Video />
       <div className="flex flex-col items-center justify-center absolute p-4 left-0 top-0 w-full h-full bg-black/70">
         <h1 className="font-medium text-2xl sm:text-4xl md:text-6xl lg:text-7xl uppercase">
           bruno asfora

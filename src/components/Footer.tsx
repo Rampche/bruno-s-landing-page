@@ -28,8 +28,8 @@ const Footer = (): JSX.Element => {
   ];
 
   return (
-    <div className="bg-[#F7F7F7] text-md md:text-lg text-center flex flex-col md:flex-row items-center justify-between px-14 text-sm">
-      <section className="py-4 md:py-14">
+    <div className="bg-[#F7F7F7] text-md md:text-lg text-center flex flex-col items-center justify-evenly md:flex-row md:justify-around px-14 text-sm py-4 md:py-14 font-primary">
+      <section>
         <h2 className="text-[#1a6887] uppercase font-semibold">
           Redes Sociais
         </h2>
@@ -46,7 +46,7 @@ const Footer = (): JSX.Element => {
           ))}
         </ul>
       </section>
-      <section className="font-semibold text-[#686868]">
+      <section className="font-semibold text-[#686868] px-4">
         <h2 className="text-[#1a6887] uppercase">Recife/PE</h2>
         <div className="font-light hover:text-[#1a6887] transition ease-in">
           <p>Rua Capitão Temudo, nº 310.</p>
