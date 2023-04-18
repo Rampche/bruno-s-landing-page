@@ -34,8 +34,9 @@ const Header = (): JSX.Element => {
   };
 
   return (
-    <nav className="bg-[#F7F7F7] text-[#268FB7]">
-      <div className="hidden sm:flex justify-between items-center md:min-h-[65px] font-primary w-full px-14 z-10">
+    <nav className="bg-[#F7F7F7] text-[#1a6887]">
+      {/* 268FB7 */}
+      <div className="hidden sm:flex justify-between items-center md:min-h-[65px]  font-primary w-full px-14 z-10">
         <div>
           <Logo />
         </div>
@@ -50,7 +51,7 @@ const Header = (): JSX.Element => {
         </ul>
       </div>
       <button className="sm:hidden" onClick={handleNavBar}>
-        <FaBars size={20} className="cursor-pointer mx-0 mt-1" />
+        <FaBars size="1.5rem" className="cursor-pointer ml-1 mt-1" />
       </button>
       <div
         onClick={() => {
@@ -64,7 +65,7 @@ const Header = (): JSX.Element => {
       >
         <ul className="pt-12 text-center h-full w-full">
           {navList.map((item) => (
-            <li className="py-8 text-lg">
+            <li className="py-8 text-lg font-semibold">
               <Link to={item.path} key={item.name}>
                 {item.name}
               </Link>

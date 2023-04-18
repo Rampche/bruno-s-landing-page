@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../components/about/Container';
+import Container from './Container';
 
 const About = (): JSX.Element => {
   return (

@@ -1,13 +1,12 @@
 import React from 'react';
-import heroImg from '../../assets/images/hero-img.jpg';
-import heroVid from '../../assets/videos/heroVid.mp4';
+import heroVid from '../assets/videos/heroVid.mp4';
 
-const HeroVideo = (): JSX.Element => {
+const Hero = (): JSX.Element => {
   return (
     <div className="w-full h-full relative flex items-center font-primary text-[#F7F7F7]">
       <video
         src={heroVid}
-        className="md:max-h-[700px] max-h-80 w-full object-cover"
+        className="md:max-h-[600px] max-h-80 w-full object-cover"
         autoPlay
         muted
         loop
@@ -25,4 +24,4 @@ const HeroVideo = (): JSX.Element => {
   );
 };
 
-export default HeroVideo;
+export default Hero;

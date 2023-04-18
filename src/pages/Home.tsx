@@ -1,10 +1,10 @@
 import React from 'react';
-import Intro from '../components/homepage/Hero';
+import Hero from '../components/Hero';
 
 const Home = (): JSX.Element => {
   return (
     <>
-      <Intro />
+      <Hero />
     </>
   );
 };
