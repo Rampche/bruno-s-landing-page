@@ -3,6 +3,7 @@ import Logo from './Logo';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { EventType } from '../../models/button';
+import WhatsappLink from '../WhatsappLink';
 
 const Header = (): JSX.Element => {
   //* Navigate links
@@ -19,10 +20,10 @@ const Header = (): JSX.Element => {
       name: 'Área de Atuação',
       path: '/info',
     },
-    {
-      name: 'Contato',
-      path: '/contact',
-    },
+    /* {
+      name: <WhatsappLink />,
+      path: '',
+    }, */
   ];
 
   //* Change state to control the navbar
@@ -43,11 +44,14 @@ const Header = (): JSX.Element => {
         <ul className="flex px-4">
           {navList.map((item) => (
             <li className="text-lg">
-              <Link to={item.path} key={item.name}>
+              <Link to={item.path} key={item.path}>
                 {item.name}
               </Link>
             </li>
           ))}
+          <li>
+            <WhatsappLink />
+          </li>
         </ul>
       </div>
       <button className="sm:hidden" onClick={handleNavBar}>
@@ -66,11 +70,14 @@ const Header = (): JSX.Element => {
         <ul className="pt-12 text-center h-full w-full">
           {navList.map((item) => (
             <li className="py-8 text-lg font-semibold">
-              <Link to={item.path} key={item.name}>
+              <Link to={item.path} key={item.path}>
                 {item.name}
               </Link>
             </li>
           ))}
+          <li>
+            <WhatsappLink />
+          </li>
         </ul>
       </div>
     </nav>

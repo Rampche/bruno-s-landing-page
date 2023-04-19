@@ -7,6 +7,7 @@ const Home = (): JSX.Element => {
     <>
       <Hero />
       <Introduction />
+      //TODO: Inserir publicações; Avaliações no Google;
     </>
   );
 };

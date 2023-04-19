@@ -6,15 +6,9 @@ function App() {
   return (
     <>
       <Header />
+
       <Outlet />
       <Footer />
-      {/*    
-      - Publicações;
-      - Avaliações do Google;
-      - Contato
-      
-      
-      */}
     </>
   );
 }

@@ -3,6 +3,7 @@ import Logo from './Logo';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { EventType } from '../../models/button';
+import WhatsappLink from '../WhatsappLink';
 
 const NavBar = (): JSX.Element => {
   //* Navigate links
@@ -19,10 +20,10 @@ const NavBar = (): JSX.Element => {
       name: 'Área de Atuação',
       path: '/info',
     },
-    {
+    /* {
       name: 'Contato',
       path: '/contact',
-    },
+    }, */
   ];
 
   //* Change state to control the navbar
