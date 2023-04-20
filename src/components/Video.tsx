@@ -8,7 +8,7 @@ const Video = (): JSX.Element => {
         autoPlay
         muted
         loop
-        className="md:max-h-[600px] max-h-80 w-full object-cover"
+        className="md:max-h-[600px] max-h-[400px] w-full object-cover"
         playsInline
         typeof="video/mp4"
         src={heroVid}

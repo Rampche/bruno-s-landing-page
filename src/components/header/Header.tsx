@@ -34,10 +34,12 @@ const Header = (): JSX.Element => {
     setNav(!nav);
   };
 
+  //! Ajustar cor da navbar ao scrollar a página.
+
   return (
-    <nav className="bg-[#F7F7F7] text-[#1a6887]">
+    <nav className="bg-[#F7F7F7] text-[#1a6887] ">
       {/* 268FB7 */}
-      <div className="hidden sm:flex justify-between items-center md:min-h-[65px]  font-primary w-full px-14 z-10">
+      <div className="hidden sm:flex justify-between items-center md:min-h-[65px] font-primary w-full px-14 z-10">
         <div>
           <Logo />
         </div>

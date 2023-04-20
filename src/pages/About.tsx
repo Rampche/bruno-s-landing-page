@@ -4,7 +4,7 @@ import BrunoImg from '../assets/images/Bruno.png';
 const About = (): JSX.Element => {
   return (
     <>
-      <section className="px-4 text-center lg:px-14 py-4 bg-[#f3efec]">
+      <section className="px-4 text-center lg:px-14 py-4 bg-[#f3efec] leading-loose">
         <div className="flex flex-col md:flex-row items-center justify-center space-x-2 space-y-2 mt-2">
           <Image src={BrunoImg} bgColor="#686868" />
 

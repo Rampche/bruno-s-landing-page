@@ -11,7 +11,7 @@ const Image: React.FC<Props> = ({ src, bgColor }) => {
       <img
         src={src}
         alt="bruno's picture"
-        className={`max-h-64 sm:max-h-80 md:max-h-96 lg:max-h-[500px] bg-${bgColor}`}
+        className={`max-h-60 md:max-h-80 lg:max-h-[400px] bg-${bgColor} rounded`}
       />
     </>
   );
