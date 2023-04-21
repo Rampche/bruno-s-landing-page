@@ -1,5 +1,5 @@
 import React from 'react';
-import BrunoImg from '../assets/images/Bruno.png';
+import BrunoImg from '../assets/images/Bruno-min.png';
 import Image from './Image';
 
 const Introduction = () => {
@@ -30,9 +30,8 @@ const Introduction = () => {
               trabalhista mal resolvida.
             </p>
             <p>
-              Por isso, pretendo ser referência nacional numa abordagem
-              humanizada, em que cada caso é analisado detalhadamente para
-              entender suas necessidades e objetivos.
+              Adoto uma abordagem humanizada, em que cada caso é analisado
+              detalhadamente para entender suas necessidades e objetivos.
             </p>
             <p>
               E como sonhava que a minha mensagem pudesse chegar ao maior número

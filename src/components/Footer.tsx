@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsTwitter, BsWhatsapp, BsInstagram, BsTiktok } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
-import { SocialIcons } from '../models/button';
+import { SocialIcons } from '../models/models';
 
 const Footer = (): JSX.Element => {
   const socialIcons: SocialIcons[] = [

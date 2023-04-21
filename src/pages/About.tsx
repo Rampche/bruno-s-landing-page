@@ -1,5 +1,5 @@
 import Image from '../components/Image';
-import BrunoImg from '../assets/images/Bruno.png';
+import BrunoImg from '../assets/images/Bruno-min.png';
 
 const About = (): JSX.Element => {
   return (

@@ -2,7 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import Logo from './Logo';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { EventType } from '../../models/button';
+import { EventType } from '../../models/models';
 import WhatsappLink from '../WhatsappLink';
 
 const NavBar = (): JSX.Element => {
