@@ -1,9 +1,9 @@
 import React from 'react';
-import { NewsType } from '../models/models';
+import { NewsType } from '../../models/models';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import justiceGavel from '../assets/images/justice gavel.jpg';
-import books from '../assets/images/books.jpg';
-import deal from '../assets/images/deal.jpg';
+import justiceGavel from '../../assets/images/justice-gavel.jpg';
+import books from '../../assets/images/books.jpg';
+import deal from '../../assets/images/deal.jpg';
 
 const Media = () => {
   const cardList: NewsType[] = [

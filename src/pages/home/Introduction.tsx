@@ -1,6 +1,6 @@
 import React from 'react';
-import BrunoImg from '../assets/images/Bruno-min.png';
-import Image from './Image';
+import BrunoImg from '../../assets/images/Bruno-min.png';
+import Image from '../../components/Image';
 
 const Introduction = () => {
   return (
