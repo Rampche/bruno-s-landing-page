@@ -2,9 +2,9 @@ import React from 'react';
 
 const Social = (): JSX.Element => {
   const socialNumbers = [
-    { title: 'Instagram', followers: '+150mil' },
-    { title: 'Tik Tok', followers: '+66mil' },
-    { title: 'Avaliação Google', followers: '5 Estrelas' },
+    { title: 'Instagram', content: '+150mil' },
+    { title: 'Tik Tok', content: '+66mil' },
+    { title: 'Avaliação Google', content: '5 Estrelas' },
   ];
 
   return (
@@ -16,12 +16,12 @@ const Social = (): JSX.Element => {
         </h2>
         <div className="w-1/2 p-6">
           <div className="flex flex-col space-y-4">
-            {socialNumbers.map(({ title, followers }) => (
+            {socialNumbers.map(({ title, content }) => (
               <div
                 key={title}
                 className="flex flex-col justify-center items-center md:flex-row md:space-y-20 text-xl"
               >
-                <p className="font-bold text-4xl">{followers}</p>
+                <p className="font-bold text-4xl">{content}</p>
                 <h3 className="font-normal text-[#1a6887]">{title}</h3>
               </div>
             ))}
