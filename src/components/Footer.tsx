@@ -48,7 +48,7 @@ const Footer = (): JSX.Element => {
       </section>
       <section className="font-semibold text-[#686868] px-4">
         <h2 className="text-[#1a6887] uppercase">Recife/PE</h2>
-        <div className="font-light hover:text-[#1a6887] transition ease-in">
+        <div className="font-light hover:text-[#1a6887] hover:duration-500 transition ease-in">
           <p>Rua Capitão Temudo, nº 310.</p>
           <p>Cabanga. CEP 50090-290</p>
         </div>

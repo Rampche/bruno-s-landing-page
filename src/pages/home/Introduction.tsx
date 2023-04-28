@@ -4,8 +4,7 @@ import Image from '../../components/Image';
 
 const Introduction = () => {
   return (
-    //Todo: Ajustar demais estilizações dos itens na página.
-    <div className="px-6 text-center py-4 font-primary bg-[#f3efec] md:px-14 lg:px-20 leading-loose">
+    <div className="px-6 text-center py-10 font-primary bg-[#f3efec] md:px-14 lg:px-20 leading-loose">
       <section
         className="flex flex-col items-center justify-center md:flex-row md:justify-between
       space-x-2 space-y-2"
@@ -14,12 +13,12 @@ const Introduction = () => {
           src={BrunoImg}
           bgColor="gradient-to-tr from-[#2A95BF] to-[#256877]"
         />
-        <article className="text-justify font-light py-5 px-4 md:px-8">
+        <article className="text-justify font-light py-5 px-4 md:px-8 tracking-wide">
           <h1 className="font-bold text-[#1a6887] text-2xl">Bruno Asfora,</h1>
           <h2 className="text-[#1a6887] font-medium text-xl">
             especialista em direito do trabalho.
           </h2>
-          <div className="text-lg mt-2 text-[#686868] font-normal space-y-3 ">
+          <div className="text-lg mt-2 text-[#686868] font-normal space-y-3">
             <p>
               Atuo no mercado jurídico há dez anos e percebi que o direito do
               trabalho deveria ser muito mais do que processos e argumentos.

@@ -1,9 +1,9 @@
 import React from 'react';
-import { NewsType } from '../../models/models';
+import { NewsType } from '../models/models';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import justiceGavel from '../../assets/images/justice-gavel.jpg';
-import books from '../../assets/images/books.jpg';
-import deal from '../../assets/images/deal.jpg';
+import justiceGavel from '../assets/images/justice-gavel.jpg';
+import books from '../assets/images/books.jpg';
+import deal from '../assets/images/deal.jpg';
 
 const Media = () => {
   const cardList: NewsType[] = [
@@ -48,12 +48,16 @@ const Media = () => {
               <img src={image} alt={title} className="w-28 h-20 rounded-sm" />
               <h3 className="text-[#1a6887] font-medium text-lg">{title}</h3>
               <p className="text-sm">{content}</p>
-              <div className="flex flex-row space-x-2">
+
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                className="flex flex-row space-x-2"
+              >
                 <p>Leia</p>
-                <a href={link} target="_blank" rel="noreferrer">
-                  <HiOutlineExternalLink size={20} className="text-[#1a6887]" />
-                </a>
-              </div>
+                <HiOutlineExternalLink size={20} className="text-[#1a6887]" />
+              </a>
             </div>
           ))}
         </div>

@@ -20,10 +20,6 @@ const Header = (): JSX.Element => {
       name: 'Área de Atuação',
       path: '/info',
     },
-    /* {
-      name: <WhatsappLink />,
-      path: '',
-    }, */
   ];
 
   //* Change state to control the navbar

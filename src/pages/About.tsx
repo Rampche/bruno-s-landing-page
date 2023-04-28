@@ -4,7 +4,7 @@ import BrunoImg from '../assets/images/Bruno-min.png';
 const About = (): JSX.Element => {
   return (
     <>
-      <section className="px-4 text-center lg:px-14 py-4 bg-[#f3efec] leading-loose">
+      <section className="px-4 text-center lg:px-14 py-4 bg-[#f3efec] leading-loose font-primary">
         <div className="flex flex-col md:flex-row items-center justify-center space-x-2 space-y-2 mt-2">
           <Image src={BrunoImg} bgColor="#686868" />
 
@@ -12,7 +12,7 @@ const About = (): JSX.Element => {
             <h2 className="text-center font-medium text-lg sm:text-2xl md:text-3xl text-white">
               BRUNO FARAN ASFORA DE MOURA
             </h2>
-            <div className="text-[#f3efec]">
+            <div className="text-[#f3efec] font-normal text-lg font-primary">
               <br />
               <p>
                 Especialista em Direito do Trabalho, pós-graduado em Dir.
