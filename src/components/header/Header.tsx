@@ -30,21 +30,18 @@ const Header = (): JSX.Element => {
     setNav(!nav);
   };
 
-  //! Ajustar cor da navbar ao scrollar a página.
-
   return (
-    <nav className="bg-[#F7F7F7] text-[#1a6887] ">
+    <>
       {/* 268FB7 */}
-      <div className="hidden sm:flex justify-between items-center md:min-h-[65px] font-primary w-full px-14 z-10">
+      <div className="hidden sm:flex justify-between items-center md:min-h-[65px] font-primary w-full px-14 z-10 text-[#1a6887] bg-[#f7f7f7]">
+        {/* bg-[#f7f7f7] */}
         <div>
           <Logo />
         </div>
         <ul className="flex px-4">
-          {navList.map((item) => (
-            <li className="text-lg">
-              <Link to={item.path} key={item.path}>
-                {item.name}
-              </Link>
+          {navList.map(({ name, path }, index) => (
+            <li key={index} className="text-lg">
+              <Link to={path}>{name}</Link>
             </li>
           ))}
           <li>
@@ -52,6 +49,7 @@ const Header = (): JSX.Element => {
           </li>
         </ul>
       </div>
+
       <button className="sm:hidden" onClick={handleNavBar}>
         <FaBars size="1.5rem" className="cursor-pointer ml-1 mt-1" />
       </button>
@@ -66,11 +64,9 @@ const Header = (): JSX.Element => {
         }
       >
         <ul className="pt-12 text-center h-full w-full">
-          {navList.map((item) => (
-            <li className="py-8 text-lg font-semibold">
-              <Link to={item.path} key={item.path}>
-                {item.name}
-              </Link>
+          {navList.map(({ name, path }, idx) => (
+            <li className="py-8 text-lg font-semibold" key={idx}>
+              <Link to={path}>{name}</Link>
             </li>
           ))}
           <li>
@@ -78,7 +74,7 @@ const Header = (): JSX.Element => {
           </li>
         </ul>
       </div>
-    </nav>
+    </>
   );
 };
 

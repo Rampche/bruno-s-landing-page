@@ -8,7 +8,6 @@ import deal from '../assets/images/deal.jpg';
 const Media = () => {
   const cardList: NewsType[] = [
     {
-      id: 'a',
       title: 'Recurso não apreciado',
       content:
         'TST confirma deserção de recurso ordinário por não comprovação do registro da apólice de seguro garantia perante a Susep',
@@ -16,7 +15,6 @@ const Media = () => {
       link: 'https://www.migalhas.com.br/depeso/341360/tst-confirma-desercao-de-recurso-ordinario',
     },
     {
-      id: 'a',
       title: 'Recurso não apreciado',
       content:
         'TST confirma deserção de recurso ordinário por não comprovação do registro da apólice de seguro garantia perante a Susep',
@@ -24,7 +22,6 @@ const Media = () => {
       link: 'https://www.migalhas.com.br/depeso/341360/tst-confirma-desercao-de-recurso-ordinario',
     },
     {
-      id: 'a',
       title: 'Recurso não apreciado',
       content:
         'TST confirma deserção de recurso ordinário por não comprovação do registro da apólice de seguro garantia perante a Susep',
@@ -35,14 +32,14 @@ const Media = () => {
 
   return (
     <>
-      <section className="w-full bg-gray-100 ">
+      <section className="w-full bg-gray-100">
         <h1 className="text-xl font-semibold uppercase text-center text-[#1a6887] pt-4 md:pt-4">
           Mídias e Publicações
         </h1>
         <div className="grid grid-flow-row md:grid-flow-col items-center justify-around font-primary space-y-4  py-4 px-4">
-          {cardList.map(({ id, title, content, image, link }) => (
+          {cardList.map(({ title, content, image, link }, i) => (
             <div
-              key={id}
+              key={i}
               className="w-64 md:max-w-xs bg-[#f3efec] text-[#686868] flex flex-col text-justify justify-center items-center space-y-1 px-4 py-2 rounded-lg"
             >
               <img src={image} alt={title} className="w-28 h-20 rounded-sm" />

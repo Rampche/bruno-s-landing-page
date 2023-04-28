@@ -34,8 +34,8 @@ const Footer = (): JSX.Element => {
           Redes Sociais
         </h2>
         <ul className="flex">
-          {socialIcons.map(({ Icon, size, url }) => (
-            <li key={url}>
+          {socialIcons.map(({ Icon, size, url }, index) => (
+            <li key={index}>
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <Icon
                   size={size}
